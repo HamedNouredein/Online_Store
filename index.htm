@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topoco</title>
+
+    <!-- File CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    
+
+
+    <header id="header" class="fixed_top">
+        <div class="container top-nav">
+            <!-- Logo (Text) -->
+            <a href="index.html" class="logo">STORE <span>DRAGON TEAM</span></a>
+    
+            <!-- Navigation Links -->
+            <nav class="nav_links">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="all_products.html">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <!-- Right Section (Search, Cart & Auth) -->
+            <div class="right_section">
+                <!-- Search Icon -->
+                <div class="search_container">
+                    <i class="fa-solid fa-search search_icon" onclick="toggleSearch()"></i>
+                    <form action="" class="search_box" id="searchBox">
+                        <input type="search" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+    
+                <!-- Shopping Cart -->
+                <div class="cart_header" onclick="open_cart()">
+                    <i class="fa-solid fa-bag-shopping cart_icon"></i>
+                    <span class="count_item">0</span>
+                    
+                </div>
+    
+                <!-- Login & Sign Up Icons -->
+                <div class="auth_icons">
+                    <a href="login.html" class="auth_icon"><i class="fa-solid fa-right-to-bracket"></i></a>
+                    <a href="signup_page.html" class="auth_icon"><i class="fa-solid fa-user-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="cart">
+        <div class="top_cart">
+            <h3>Shopping Cart <span class="count_item_cart">(0 items in cart)</span></h3>
+            <span onclick="close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+    
+        <div class="items_in_cart">
+            <!-- Added items will be displayed here -->
+        </div>
+    
+        <div class="bottom_Cart">
+            <div class="total">
+                <p>Cart Total</p>
+                <p class="price_cart_total">$0</p>
+            </div>
+    
+            <div class="button_Cart">
+                <a href="checkout.html" class="btn_cart">Checkout</a>
+                <button onclick="close_cart()" class="btn_cart trans_bg">Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+    
+    <section class="slider">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- Product 1 -->
+                <div class="swiper-slide">
+                    <img src="img/slider-01.jpg" alt="Product 1">
+                    <div class="slider-content">
+                        <h2>Exclusive Offer on Latest Devices</h2>
+                        <p>Get up to 30% discount on smartphones.</p>
+                        <a href="#" class="shop-btn">Shop Now</a>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="swiper-slide">
+                    <img src="img/banner/ban2.jpg" alt="Product 2">
+                    <div class="slider-content">
+                        <h2>Fashion Deals You Can't Miss</h2>
+                        <p>Trendy designs at unbeatable prices!</p>
+                        <a href="#" class="shop-btn">Shop Now</a>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="swiper-slide">
+                    <img src="img/slider-03.jpg" alt="Product 3">
+                    <div class="slider-content">
+                        <h2>Luxury Perfumes at Great Prices</h2>
+                        <p>Elegant scents that last all day. Buy now!</p>
+                        <a href="#" class="shop-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Navigation Buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+</section>
+<section class="featured-services">
+    <div class="container">
+        <div class="icon-box">
+            <div class="icon"><i class="fas fa-shipping-fast"></i></div>
+            <h4 class="title"><a href="#">Fast Delivery</a></h4>
+            <p class="description">Get your orders delivered quickly with our express shipping.</p>
+        </div>
+
+        <div class="icon-box">
+            <div class="icon"><i class="fas fa-tags"></i></div>
+            <h4 class="title"><a href="#">Best Deals</a></h4>
+            <p class="description">Enjoy exclusive discounts and unbeatable prices.</p>
+        </div>
+
+        <div class="icon-box">
+            <div class="icon"><i class="fas fa-shield-alt"></i></div>
+            <h4 class="title"><a href="#">Secure Shopping</a></h4>
+            <p class="description">Your data and transactions are fully protected.</p>
+        </div>
+
+        <div class="icon-box">
+            <div class="icon"><i class="fas fa-headset"></i></div>
+            <h4 class="title"><a href="#">24/7 Support</a></h4>
+            <p class="description">We are here to help you anytime, anywhere.</p>
+        </div>
+    </div>
+</section>
+
+    
+   
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/items_home.js"></script>
+</body>
+</html>
