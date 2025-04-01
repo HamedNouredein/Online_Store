@@ -10,7 +10,11 @@
 }
 
 :root{
+<<<<<<< HEAD
     --main-color: #fcb700;
+=======
+    --main-color: #00bcd4; /* السماوي كلون رئيسي */
+>>>>>>> 4db59d0 (first commit)
     --dark-color: #222222;
     --parg-color: #666666;
     --dark-red: #d01418;
@@ -19,7 +23,11 @@
 }
 
 body{
+<<<<<<< HEAD
     background: #f5f6f9;
+=======
+    background: #fff; /* الباك جراوند أبيض */
+>>>>>>> 4db59d0 (first commit)
     margin-top: 180px;
     padding-top: 70px;
     padding: 0%;
@@ -43,7 +51,10 @@ p{
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4db59d0 (first commit)
 /* header */
 
 /* General Header Styling */
@@ -52,7 +63,11 @@ p{
     top: 0;
     left: 0;
     width: 100%;
+<<<<<<< HEAD
     background: #fff;
+=======
+    background: #fff; /* الباك جراوند أبيض */
+>>>>>>> 4db59d0 (first commit)
     padding: 12px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000; 
@@ -73,11 +88,18 @@ p{
     font-weight: bold;
     color: #333;
     text-decoration: none;
+<<<<<<< HEAD
     ;
 }
 
 .logo span {
     color: #00bcd4;
+=======
+}
+
+.logo span {
+    color: var(--main-color); /* السماوي للنص المميز */
+>>>>>>> 4db59d0 (first commit)
 }
 
 /* Navigation Links */
@@ -85,7 +107,10 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4db59d0 (first commit)
 }
 .nav_links ul {
     display: flex;
@@ -102,7 +127,11 @@ p{
 }
 
 .nav_links ul li a:hover {
+<<<<<<< HEAD
     color: #00bcd4;
+=======
+    color: var(--main-color); /* السماوي عند الهوفر */
+>>>>>>> 4db59d0 (first commit)
 }
 
 /* Right Section (Search, Cart, Auth) */
@@ -119,7 +148,10 @@ p{
 
 .search_icon {
     font-size: 18px;
+<<<<<<< HEAD
     /* background: #00bcd4; */
+=======
+>>>>>>> 4db59d0 (first commit)
     color: rgb(88, 85, 85);
     padding: 10px;
     border-radius: 50%;
@@ -128,7 +160,11 @@ p{
 }
 
 .search_icon:hover {
+<<<<<<< HEAD
     background: #00bcd4;
+=======
+    background: var(--main-color); /* السماوي عند الهوفر */
+>>>>>>> 4db59d0 (first commit)
 }
 
 /* Hidden Search Box */
@@ -136,7 +172,11 @@ p{
     position: absolute;
     top: 100%;
     right: 0;
+<<<<<<< HEAD
     background: white;
+=======
+    background: #fff; /* الباك جراوند أبيض */
+>>>>>>> 4db59d0 (first commit)
     padding: 5px;
     border-radius: 5px;
     display: none;
@@ -150,15 +190,23 @@ p{
 }
 
 .search_box button {
+<<<<<<< HEAD
     background: #00bcd4;
     color: white;
+=======
+    background: var(--main-color); /* السماوي للزر */
+    color: #fff;
+>>>>>>> 4db59d0 (first commit)
     border: none;
     padding: 5px 10px;
     border-radius: 3px;
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4db59d0 (first commit)
 /* Shopping Cart */
 .cart_header {
     position: relative;
@@ -171,15 +219,23 @@ p{
 .cart_icon {
     position: relative;
     font-size: 18px;
+<<<<<<< HEAD
     /* background: #00bcd4; */
     color:rgb(88, 85, 85);
+=======
+    color: rgb(88, 85, 85);
+>>>>>>> 4db59d0 (first commit)
     padding: 10px;
     border-radius: 50%;
     transition: background 0.3s ease;
 }
 
 .cart_icon:hover {
+<<<<<<< HEAD
     background: #00bcd4;
+=======
+    background: var(--main-color); /* السماوي عند الهوفر */
+>>>>>>> 4db59d0 (first commit)
 }
 .icon_cart {
     position: relative; 
@@ -187,22 +243,37 @@ p{
 
 .count_item {
     position: absolute;
+<<<<<<< HEAD
     top: -8px; /* تحريك الرقم للأعلى */
     right: -8px; /* تحريكه لليمين */
     background: orangered;
     color: white;
+=======
+    top: -8px;
+    right: -8px;
+    background: orangered;
+    color: #fff;
+>>>>>>> 4db59d0 (first commit)
     font-size: 12px;
     font-weight: bold;
     width: 18px;
     height: 18px;
     text-align: center;
     line-height: 18px;
+<<<<<<< HEAD
     border-radius: 50%;;
+=======
+    border-radius: 50%;
+>>>>>>> 4db59d0 (first commit)
 }
 .price_cart_Head {
     font-weight: bold;
     font-size: 16px;
+<<<<<<< HEAD
     color: #00bcd4
+=======
+    color: var(--main-color); /* السماوي للسعر */
+>>>>>>> 4db59d0 (first commit)
 }
 
 /* Login & Sign Up Icons */
@@ -213,7 +284,10 @@ p{
 
 .auth_icon {
     font-size: 18px;
+<<<<<<< HEAD
     /* background:  #00bcd4; */
+=======
+>>>>>>> 4db59d0 (first commit)
     color: rgb(88, 85, 85);
     padding: 10px;
     border-radius: 50%;
@@ -221,6 +295,7 @@ p{
 }
 
 .auth_icon:hover {
+<<<<<<< HEAD
     background: #00bcd4;
 }
 
@@ -232,16 +307,32 @@ p{
 /* Cart */
 
 /* تحسينات الألوان والتنسيق للسلة الجانبية */
+=======
+    background: var(--main-color); /* السماوي عند الهوفر */
+}
+
+/* end Header */
+
+/* Cart */
+>>>>>>> 4db59d0 (first commit)
 .cart {
     position: fixed;
     top: 0;
     right: -400px;
     bottom: 0;
+<<<<<<< HEAD
     background: #f8fdff; /* لون سماوي فاتح */
     z-index: 1100;
     padding: 30px;
     border-left: 2px solid #00bcd4; /* لون الحدود */
     box-shadow: -5px 0 15px rgba(0, 188, 212, 0.2); /* ظل جانبي */
+=======
+    background: #fff; /* الباك جراوند أبيض */
+    z-index: 1100;
+    padding: 30px;
+    border-left: 2px solid var(--main-color); /* السماوي للحدود */
+    box-shadow: -5px 0 15px rgba(0, 188, 212, 0.2);
+>>>>>>> 4db59d0 (first commit)
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -262,24 +353,40 @@ p{
 .cart .top_cart .close_cart i {
     font-size: 35px;
     cursor: pointer;
+<<<<<<< HEAD
     color: #008ba3;
+=======
+    color: var(--main-color); /* السماوي للأيقونة */
+>>>>>>> 4db59d0 (first commit)
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .cart .top_cart .close_cart i:hover {
     color: #005f6b;
+<<<<<<< HEAD
     transform: rotate(90deg); /* تأثير دوران عند التمرير */
+=======
+    transform: rotate(90deg);
+>>>>>>> 4db59d0 (first commit)
 }
 
 .cart .top_cart h3 {
     font-size: 18px;
+<<<<<<< HEAD
     color: #008ba3; /* لون العنوان */
+=======
+    color: var(--main-color); /* السماوي للعنوان */
+>>>>>>> 4db59d0 (first commit)
     font-weight: bold;
 }
 
 .cart .items_in_cart {
     padding: 20px 0;
+<<<<<<< HEAD
     border-block: 1px solid #00bcd4;
+=======
+    border-block: 1px solid var(--main-color); /* السماوي للحدود */
+>>>>>>> 4db59d0 (first commit)
     margin-block: 20px;
     height: 100%;
 }
@@ -291,19 +398,30 @@ p{
 }
 
 .cart .button_Cart .btn_cart {
+<<<<<<< HEAD
     border: 2px solid #00bcd4;
     border-radius: 5px;
     color: white;
+=======
+    border: 2px solid var(--main-color); /* السماوي للحدود */
+    border-radius: 5px;
+    color: #fff;
+>>>>>>> 4db59d0 (first commit)
     padding: 15px 0;
     text-align: center;
     font-size: 16px;
     text-transform: uppercase;
     cursor: pointer;
+<<<<<<< HEAD
     background: #00bcd4;
+=======
+    background: var(--main-color); /* السماوي كلون أساسي */
+>>>>>>> 4db59d0 (first commit)
     transition: background 0.3s ease, color 0.3s ease;
 }
 
 .cart .button_Cart .btn_cart:hover {
+<<<<<<< HEAD
     background: white;
     color: #00bcd4;
 }
@@ -324,19 +442,48 @@ p{
 /* end cart */
 
 
+=======
+    background: #fff; /* الباك جراوند أبيض عند الهوفر */
+    color: var(--main-color); /* السماوي للنص */
+}
+
+.cart .button_Cart .trans_bg {
+    background: #fff; /* الباك جراوند أبيض */
+    color: var(--main-color); /* السماوي للنص */
+    border: 2px solid var(--main-color); /* السماوي للحدود */
+}
+
+.cart .button_Cart .trans_bg:hover {
+    background: var(--main-color); /* السماوي عند الهوفر */
+    color: #fff;
+}
+
+/* end cart */
+
+>>>>>>> 4db59d0 (first commit)
 /* start slider */
 .slider {
     width: 100%;
     height: 100vh;
+<<<<<<< HEAD
     background-color: #f8fdff;
     overflow: hidden;
     position: relative;
     
+=======
+    background-color: #fff; /* الباك جراوند أبيض */
+    overflow: hidden;
+    position: relative;
+>>>>>>> 4db59d0 (first commit)
 }
 
 .swiper {
     width: 100%;
+<<<<<<< HEAD
     height: 710px; /* زيادة الارتفاع ليكون مشابهًا للصورة */
+=======
+    height: 710px;
+>>>>>>> 4db59d0 (first commit)
 }
 
 .swiper-slide {
@@ -349,7 +496,10 @@ p{
     width: 100%;
     height: 100vh;
     object-fit: cover;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 4db59d0 (first commit)
 }
 
 /* تصميم نصوص العرض */
@@ -358,7 +508,11 @@ p{
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
+<<<<<<< HEAD
     background: rgba(255, 255, 255, 0.85); 
+=======
+    background: rgba(255, 255, 255, 0.85); /* الباك جراوند أبيض مع شفافية */
+>>>>>>> 4db59d0 (first commit)
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -369,7 +523,11 @@ p{
 .slider-content h2 {
     margin: 0;
     font-size: 28px;
+<<<<<<< HEAD
     color: #005f73;
+=======
+    color: var(--main-color); /* السماوي للعنوان */
+>>>>>>> 4db59d0 (first commit)
     font-weight: bold;
 }
 
@@ -382,8 +540,13 @@ p{
 .shop-btn {
     display: inline-block;
     padding: 12px 24px;
+<<<<<<< HEAD
     background: #008cba;
     color: white;
+=======
+    background: var(--main-color); /* السماوي للزر */
+    color: #fff;
+>>>>>>> 4db59d0 (first commit)
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -398,8 +561,12 @@ p{
 /* أزرار التنقل */
 .swiper-button-next,
 .swiper-button-prev {
+<<<<<<< HEAD
     color: white;
     /* background: rgba(0, 140, 186, 0.7); */
+=======
+    color: #fff;
+>>>>>>> 4db59d0 (first commit)
     padding: 20px;
     border-radius: 50%;
     transition: 0.3s;
@@ -407,24 +574,37 @@ p{
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
+<<<<<<< HEAD
     background: rgba(0, 140, 186, 0.7);
+=======
+    background: rgba(0, 188, 212, 0.7); /* السماوي مع شفافية عند الهوفر */
+>>>>>>> 4db59d0 (first commit)
 }
 
 /* النقاط (pagination) */
 .swiper-pagination-bullet {
+<<<<<<< HEAD
     background: white;
+=======
+    background: #fff;
+>>>>>>> 4db59d0 (first commit)
     opacity: 1;
     transition: 0.3s;
 }
 
 .swiper-pagination-bullet-active {
+<<<<<<< HEAD
     background: #008cba !important;
+=======
+    background: var(--main-color) !important; /* السماوي للنقطة النشطة */
+>>>>>>> 4db59d0 (first commit)
     width: 35px !important;
     height: 8px !important;
     border-radius: 30px !important;
 }
 
 /* end slider */
+<<<<<<< HEAD
 /* service_feature */
 /* فصل القسم عن غيره */
 .featured-services {
@@ -433,6 +613,15 @@ p{
 }
 
 /* ترتيب العناصر */
+=======
+
+/* service_feature */
+.featured-services {
+    background: #fff; /* الباك جراوند أبيض */
+    padding: 60px 20px;
+}
+
+>>>>>>> 4db59d0 (first commit)
 .featured-services .container {
     display: flex;
     justify-content: space-between;
@@ -440,7 +629,10 @@ p{
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 /* تصميم البوكسات */
+=======
+>>>>>>> 4db59d0 (first commit)
 .featured-services .icon-box {
     flex: 1;
     min-width: 250px;
@@ -454,7 +646,10 @@ p{
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 /* حركة هوفر احترافية */
+=======
+>>>>>>> 4db59d0 (first commit)
 .featured-services .icon-box::before {
     content: "";
     position: absolute;
@@ -462,7 +657,11 @@ p{
     left: 0;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     background: linear-gradient(135deg, #00BCD4, #0288D1);
+=======
+    background: linear-gradient(135deg, var(--main-color), #0288D1); /* السماوي بتدرج */
+>>>>>>> 4db59d0 (first commit)
     transition: top 0.3s ease-in-out;
     z-index: 0;
 }
@@ -480,6 +679,7 @@ p{
     z-index: 1;
 }
 
+<<<<<<< HEAD
 /* أيقونات */
 .featured-services .icon i {
     font-size: 40px;
@@ -488,11 +688,22 @@ p{
 }
 
 /* عند التمرير يتغير لون الأيقونة */
+=======
+.featured-services .icon i {
+    font-size: 40px;
+    color: var(--main-color); /* السماوي للأيقونة */
+    transition: color 0.3s ease-in-out;
+}
+
+>>>>>>> 4db59d0 (first commit)
 .featured-services .icon-box:hover .icon i {
     color: #fff;
 }
 
+<<<<<<< HEAD
 /* عناوين */
+=======
+>>>>>>> 4db59d0 (first commit)
 .featured-services .title {
     font-size: 18px;
     font-weight: bold;
@@ -508,7 +719,10 @@ p{
     color: #fff;
 }
 
+<<<<<<< HEAD
 /* وصف */
+=======
+>>>>>>> 4db59d0 (first commit)
 .featured-services .description {
     font-size: 14px;
     margin-top: 10px;
@@ -520,8 +734,598 @@ p{
     color: #fff;
 }
 
+<<<<<<< HEAD
   /* end service_feature */
 
 
 
 
+=======
+/* end service_feature */
+
+/* start banner */
+.banner {
+    margin: 50px 0;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .container .banner_img {
+    width: 32%;
+    position: relative;
+}
+
+.banner .container .banner_img img {
+    width: 100%;
+}
+
+.banner .glass_hover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.banner .glass_hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(50deg, transparent 50%, rgba(255,255,255,0.1) 60%, rgba(255,255,255,0.5) 70%, transparent 71%);
+    background-size: 200% 100%;
+    background-position: 200% 0;
+    z-index: 90;
+    transition: 0.8s;
+}
+
+.banner .banner_img:hover .glass_hover::after {
+    background-position: -20% 0;
+}
+
+.banner .banner_img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.banner_big.banner .container .banner_img {
+    width: 49%;
+    position: relative;
+}
+
+/* end banner */
+
+/* start slide */
+.slide {
+    margin-bottom: 100px;
+}
+
+.top_slide {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.top_slide::after {
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    background: var(--main-color); /* السماوي للخط */
+}
+
+.top_slide h2 {
+    text-transform: capitalize;
+}
+
+.top_slide h2 span {
+    font-weight: normal;
+}
+
+/* prdouct card style */
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff; /* الباك جراوند أبيض */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #94949428;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    width: calc(25% - 20px);
+    min-height: 400px;
+}
+
+.product .sale_present {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    background-color: var(--main-color); /* السماوي للخط */
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 14px;
+}
+
+.product .img_product {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .img_product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.product .img_product .img_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.product:hover .img_product .img_hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.product .name_product {
+    font-size: 16px;
+}
+
+.product .name_product a {
+    color: dimgray
+}
+
+.product .name_product a:hover {
+    text-decoration: underline;
+}
+
+.stars {
+    margin: 15px 0;
+}
+
+.stars i {
+    color: var(--main-color); /* السماوي للنجوم */
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.price p {
+    color: var(--main-color); /* السماوي للسعر */
+    font-weight: bold;
+}
+
+.price .old_price {
+    color: var(--parg-color);
+    text-decoration: line-through;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.product .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: -80px;
+    z-index: 3;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s ease-in-out;
+}
+
+.product .icons i {
+    color: var(--dark-color);
+    background: #fff; /* الباك جراوند أبيض */
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.product .icons i.active {
+    background: var(--main-color); /* السماوي عند التفعيل */
+    cursor: auto;
+    pointer-events: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.product .icons i.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000004f;
+    z-index: 5;
+}
+
+.product .icons i:hover {
+    background: var(--main-color); /* السماوي عند الهوفر */
+}
+
+.product:hover .icons {
+    right: 20px;
+}
+
+/* sliders */
+.slide .container {
+    position: relative;
+}
+
+.slide .container .mySwiper {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.slide .container .mySwiper .btn_Swip {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background: var(--main-color); /* السماوي للزر */
+    color: #fff;
+    font-weight: bold;
+    padding: 0 18px;
+    border-radius: 5px;
+}
+
+.slide .container .mySwiper .btn_Swip::after {
+    font-size: 25px;
+}
+
+.slide .container .mySwiper .btn_Swip.swiper-button-prev {
+    left: calc(100% - 90px);
+}
+
+/* slide_product */
+.slide_product .product_swip {
+    width: calc(100% - 300px);
+}
+
+.slide_product .slide_with_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide_product .categ_img {
+    padding: 10px 0;
+    width: 280px;
+}
+
+.slide_product .categ_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* end slide_product */
+
+.back_to_top{
+    background: #4da6ff;
+}
+
+.back_to_top p{
+    padding: 22px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer{
+    background: #fff;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+footer .container .big_row{
+    width: 30%;
+}
+
+footer .container .big_row .hotline{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 ;
+    gap: 10px;
+}
+footer .container .big_row .hotline i{
+    font-size: 60px;
+    color: #007acc;
+}
+footer .container .big_row .hotline h5{
+    color: #007acc;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+footer .container .big_row .hotline h6{
+    color: #004c99;
+    font-size: 18px;
+}
+footer .container .big_row p{
+    width: 90%;
+    color: #005580;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+footer .container .row{
+    width: 22%;
+}
+footer .container .row h4{
+    color: #007acc;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+footer .container .row .links{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+footer .container .row .links a{
+    color: #005580;
+    font-size: 14px;
+    position: relative;
+    left: 0;
+    transition: 0.3S ease-in-out;
+}
+footer .container .row .links a:hover{
+    left: 8px;
+    color: #007acc;
+}
+footer .bottom_footer{
+    background: #b3e0ff;
+}
+footer .bottom_footer .container{
+    padding: 20px 0;
+    align-items: center;
+}
+footer .bottom_footer .container span{
+    color: #007acc;
+}
+footer .bottom_footer .payment_img{
+    display: flex;
+    gap: 10px;
+}
+footer .bottom_footer .payment_img img{
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer .bottom_footer .payment_img img:hover{
+    filter: grayscale(0%);
+}
+
+
+/* Resopnsive */
+header .links ul .bg-overlay,
+header .links .btn_open_menu,
+header .links ul .logo_menu,
+header .links ul .btn_close_menu{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    header .top-nav .search{
+        width: 420px;
+    }
+    .slider .container .side_bar{
+        display: none;
+    }
+    .slider .container .slide-swp{
+        width: 100%;
+    }
+    .features .container .feature_item{
+        margin-bottom: 10px;
+    }
+    .newsletter .container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .newsletter .container .text{
+        width: 100%;
+    }
+    .newsletter .newsletter_form{
+        width: 70%;
+    }
+    footer .container{
+        flex-wrap: wrap;
+    }
+    footer .container .row{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    footer .container .big_row{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 900px){
+    body{
+        margin-top: 240px;
+    }
+    header .top-nav{
+        flex-wrap: wrap;
+    }
+    header .top-nav .search{
+        order: 3;
+        width: 80%;
+        margin: 10px auto 0;
+    }
+    header .links{
+        padding: 20px 0;
+    }
+    header .links ul{
+        padding-top: 50px;
+        position: fixed;
+        top: 0;
+        left: -420px;
+        bottom: 0;
+        background: #ffff;
+        flex-direction: column;
+        gap: 20px;
+        width: 400px;
+        border-right: 1px solid var(--border-color);
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    }
+    header .links ul.active{
+        left: 0;
+    }
+    header .links ul .logo_menu{
+        width: 140px;
+        margin: 0px auto;
+        display: block;
+    }
+    header .links ul .btn_close_menu{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 40px;
+        color: var(--main-color);
+        display: block;
+    }
+    header .links .btn_open_menu{
+        display: block;
+        font-size: 25px;
+    }
+    header .links ul .bg-overlay{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        background: #0000003d;
+        width: calc(100vw - 400px);
+        transition: 0.3s ease-in-out;
+    }
+    header .links ul.active .bg-overlay{
+        right: 0;
+    }
+    .banner{
+        margin: 0;
+    }
+    .slide{
+        margin-bottom: 50px;
+    }
+    .slide_product .categ_img{
+        display: none;
+    }
+    .slide_product .product_swip{
+        width: 100%;
+    }
+    .newsletter .text h4{
+        font-size: 25px;
+    }
+    .newsletter .text p{
+        font-size: 14px;
+    }
+    .newsletter .text h6{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px){
+    header .top-nav .search{
+        width: 100%;
+    }
+    header .top-nav .search input{
+        padding: 13px 130px 13px 20px;
+    }
+    header .top-nav .search button{
+        width: 120px;
+        font-size: 14px;
+    }
+    header .links ul{
+        width: 100%;
+        left: -100%;
+    }
+    .cart{
+        width: 100%;
+        right: -100%;
+    }
+    .product .name_product a{
+        font-size: 13px;
+    }
+    .product{
+        padding: 15px 10px;
+    }
+    .stars i{
+        font-size: 14px;
+    }
+    .slide{
+        margin-bottom: 30px;
+    }
+    .top_slide h2{
+        font-size: 16px;
+    }
+    .newsletter .newsletter_form{
+        width: 100%;
+    }
+    .newsletter .text h4{
+        font-size: 23px;
+    }
+    .newsletter .text p{
+        font-size: 13px;
+    }
+    .newsletter .text h6{
+        font-size: 16px;
+    }
+    .newsletter .newsletter_form button{
+        width: 120px;
+        font-size: 14px;
+    }
+    .newsletter .newsletter_form input{
+        padding: 16px 140px 16px 20px;
+    }
+    footer .container .row{
+        width: 100%;
+    }
+    footer .container .big_row{
+        width: 100%;
+    }
+}
+>>>>>>> 4db59d0 (first commit)

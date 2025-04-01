@@ -1,38 +1,63 @@
 [
     {
       "id": 0,
+<<<<<<< HEAD
       "img": "img/product/product1.jpg",
       "img_hover": "img/product/product-1.jpg",
       "name": "Original Mobile Android Dual SIM Smart Phone G3",
+=======
+      "img": "img/product/pic2.jpg",
+      "img_hover": "img/product/pro1.jpg",
+      "name": "It suctions fluids and secretions during surgical procedures or medical treatments",
+>>>>>>> 4db59d0 (first commit)
       "price": 185,
       "old_price": 225
     },
     {
       "id": 1,
+<<<<<<< HEAD
       "img": "img/product/product2.jpg",
       "img_hover": "img/product/product-2.jpg",
       "name": "Original Mobile Android Dual SIM Smart Phone G3",
+=======
+      "img": "img/product/pic4.jpg",
+      "img_hover": "img/product/pic5.jpg",
+      "name": "It measures blood pressure and pulse rate accurately and quickly",
+>>>>>>> 4db59d0 (first commit)
       "price": 100,
       "old_price": 120
     },
     {
       "id": 2,
+<<<<<<< HEAD
       "img": "img/product/product3.jpg",
       "img_hover": "img/product/product-3.jpg",
       "name": "Original Mobile Android Dual SIM Smart Phone G3",
+=======
+      "img": "img/product/pic8.jpg",
+      "img_hover": "img/product/pic14.jpg",
+      "name": "It monitors vital signs like heart rate, blood pressure, and oxygen",
+>>>>>>> 4db59d0 (first commit)
       "price": 140,
       "old_price": 200
     },
     {
       "id": 3,
+<<<<<<< HEAD
       "img": "img/product/product4.jpg",
       "img_hover": "img/product/product-4.jpg",
       "name": "Original Mobile Android Dual SIM Smart Phone G3",
+=======
+      "img": "img/product/pic3.jpg",
+      "img_hover": "img/product/pic13.jpg",
+      "name": "It manually measures blood pressure using the cuff and stethoscope",
+>>>>>>> 4db59d0 (first commit)
       "price": 90,
       "old_price": 110
     },
     {
       "id": 4,
+<<<<<<< HEAD
       "img": "img/product/product5.jpg",
       "img_hover": "img/product/product-5.jpg",
       "name": "Original Mobile Android Dual SIM Smart Phone G3",
@@ -121,6 +146,16 @@
       "price": 60
     }
 
+=======
+      "img": "img/product/pic10.jpg",
+      "img_hover": "img/product/pic11.jpg",
+      "name": "It measures temperature remotely with speed and accuracy",
+      "price": 350,
+      "old_price": 420
+
+    }
+    
+>>>>>>> 4db59d0 (first commit)
 
 
 
