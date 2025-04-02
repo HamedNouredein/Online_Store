@@ -10,11 +10,7 @@
 }
 
 :root{
-<<<<<<< HEAD
-    --main-color: #fcb700;
-=======
     --main-color: #00bcd4; /* السماوي كلون رئيسي */
->>>>>>> 4db59d0 (first commit)
     --dark-color: #222222;
     --parg-color: #666666;
     --dark-red: #d01418;
@@ -23,11 +19,7 @@
 }
 
 body{
-<<<<<<< HEAD
-    background: #f5f6f9;
-=======
     background: #fff; /* الباك جراوند أبيض */
->>>>>>> 4db59d0 (first commit)
     margin-top: 180px;
     padding-top: 70px;
     padding: 0%;
@@ -51,10 +43,6 @@ p{
     }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 4db59d0 (first commit)
 /* header */
 
 /* General Header Styling */
@@ -63,11 +51,7 @@ p{
     top: 0;
     left: 0;
     width: 100%;
-<<<<<<< HEAD
-    background: #fff;
-=======
     background: #fff; /* الباك جراوند أبيض */
->>>>>>> 4db59d0 (first commit)
     padding: 12px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000; 
@@ -88,18 +72,10 @@ p{
     font-weight: bold;
     color: #333;
     text-decoration: none;
-<<<<<<< HEAD
-    ;
-}
-
-.logo span {
-    color: #00bcd4;
-=======
 }
 
 .logo span {
     color: var(--main-color); /* السماوي للنص المميز */
->>>>>>> 4db59d0 (first commit)
 }
 
 /* Navigation Links */
@@ -107,10 +83,6 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-<<<<<<< HEAD
-
-=======
->>>>>>> 4db59d0 (first commit)
 }
 .nav_links ul {
     display: flex;
@@ -127,11 +99,7 @@ p{
 }
 
 .nav_links ul li a:hover {
-<<<<<<< HEAD
-    color: #00bcd4;
-=======
     color: var(--main-color); /* السماوي عند الهوفر */
->>>>>>> 4db59d0 (first commit)
 }
 
 /* Right Section (Search, Cart, Auth) */
@@ -148,10 +116,6 @@ p{
 
 .search_icon {
     font-size: 18px;
-<<<<<<< HEAD
-    /* background: #00bcd4; */
-=======
->>>>>>> 4db59d0 (first commit)
     color: rgb(88, 85, 85);
     padding: 10px;
     border-radius: 50%;
@@ -160,11 +124,7 @@ p{
 }
 
 .search_icon:hover {
-<<<<<<< HEAD
-    background: #00bcd4;
-=======
     background: var(--main-color); /* السماوي عند الهوفر */
->>>>>>> 4db59d0 (first commit)
 }
 
 /* Hidden Search Box */
@@ -172,11 +132,7 @@ p{
     position: absolute;
     top: 100%;
     right: 0;
-<<<<<<< HEAD
-    background: white;
-=======
     background: #fff; /* الباك جراوند أبيض */
->>>>>>> 4db59d0 (first commit)
     padding: 5px;
     border-radius: 5px;
     display: none;
@@ -190,23 +146,14 @@ p{
 }
 
 .search_box button {
-<<<<<<< HEAD
-    background: #00bcd4;
-    color: white;
-=======
     background: var(--main-color); /* السماوي للزر */
     color: #fff;
->>>>>>> 4db59d0 (first commit)
     border: none;
     padding: 5px 10px;
     border-radius: 3px;
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 4db59d0 (first commit)
 /* Shopping Cart */
 .cart_header {
     position: relative;
@@ -219,23 +166,14 @@ p{
 .cart_icon {
     position: relative;
     font-size: 18px;
-<<<<<<< HEAD
-    /* background: #00bcd4; */
-    color:rgb(88, 85, 85);
-=======
     color: rgb(88, 85, 85);
->>>>>>> 4db59d0 (first commit)
     padding: 10px;
     border-radius: 50%;
     transition: background 0.3s ease;
 }
 
 .cart_icon:hover {
-<<<<<<< HEAD
-    background: #00bcd4;
-=======
     background: var(--main-color); /* السماوي عند الهوفر */
->>>>>>> 4db59d0 (first commit)
 }
 .icon_cart {
     position: relative; 
@@ -243,37 +181,22 @@ p{
 
 .count_item {
     position: absolute;
-<<<<<<< HEAD
-    top: -8px; /* تحريك الرقم للأعلى */
-    right: -8px; /* تحريكه لليمين */
-    background: orangered;
-    color: white;
-=======
     top: -8px;
     right: -8px;
     background: orangered;
     color: #fff;
->>>>>>> 4db59d0 (first commit)
     font-size: 12px;
     font-weight: bold;
     width: 18px;
     height: 18px;
     text-align: center;
     line-height: 18px;
-<<<<<<< HEAD
-    border-radius: 50%;;
-=======
     border-radius: 50%;
->>>>>>> 4db59d0 (first commit)
 }
 .price_cart_Head {
     font-weight: bold;
     font-size: 16px;
-<<<<<<< HEAD
-    color: #00bcd4
-=======
     color: var(--main-color); /* السماوي للسعر */
->>>>>>> 4db59d0 (first commit)
 }
 
 /* Login & Sign Up Icons */
@@ -284,10 +207,6 @@ p{
 
 .auth_icon {
     font-size: 18px;
-<<<<<<< HEAD
-    /* background:  #00bcd4; */
-=======
->>>>>>> 4db59d0 (first commit)
     color: rgb(88, 85, 85);
     padding: 10px;
     border-radius: 50%;
@@ -295,44 +214,22 @@ p{
 }
 
 .auth_icon:hover {
-<<<<<<< HEAD
-    background: #00bcd4;
-}
-
-
-
-/* end Header */
-
-
-/* Cart */
-
-/* تحسينات الألوان والتنسيق للسلة الجانبية */
-=======
     background: var(--main-color); /* السماوي عند الهوفر */
 }
 
 /* end Header */
 
 /* Cart */
->>>>>>> 4db59d0 (first commit)
 .cart {
     position: fixed;
     top: 0;
     right: -400px;
     bottom: 0;
-<<<<<<< HEAD
-    background: #f8fdff; /* لون سماوي فاتح */
-    z-index: 1100;
-    padding: 30px;
-    border-left: 2px solid #00bcd4; /* لون الحدود */
-    box-shadow: -5px 0 15px rgba(0, 188, 212, 0.2); /* ظل جانبي */
-=======
     background: #fff; /* الباك جراوند أبيض */
     z-index: 1100;
     padding: 30px;
     border-left: 2px solid var(--main-color); /* السماوي للحدود */
     box-shadow: -5px 0 15px rgba(0, 188, 212, 0.2);
->>>>>>> 4db59d0 (first commit)
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -353,40 +250,24 @@ p{
 .cart .top_cart .close_cart i {
     font-size: 35px;
     cursor: pointer;
-<<<<<<< HEAD
-    color: #008ba3;
-=======
     color: var(--main-color); /* السماوي للأيقونة */
->>>>>>> 4db59d0 (first commit)
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .cart .top_cart .close_cart i:hover {
     color: #005f6b;
-<<<<<<< HEAD
-    transform: rotate(90deg); /* تأثير دوران عند التمرير */
-=======
     transform: rotate(90deg);
->>>>>>> 4db59d0 (first commit)
 }
 
 .cart .top_cart h3 {
     font-size: 18px;
-<<<<<<< HEAD
-    color: #008ba3; /* لون العنوان */
-=======
     color: var(--main-color); /* السماوي للعنوان */
->>>>>>> 4db59d0 (first commit)
     font-weight: bold;
 }
 
 .cart .items_in_cart {
     padding: 20px 0;
-<<<<<<< HEAD
-    border-block: 1px solid #00bcd4;
-=======
     border-block: 1px solid var(--main-color); /* السماوي للحدود */
->>>>>>> 4db59d0 (first commit)
     margin-block: 20px;
     height: 100%;
 }
@@ -398,51 +279,19 @@ p{
 }
 
 .cart .button_Cart .btn_cart {
-<<<<<<< HEAD
-    border: 2px solid #00bcd4;
-    border-radius: 5px;
-    color: white;
-=======
     border: 2px solid var(--main-color); /* السماوي للحدود */
     border-radius: 5px;
     color: #fff;
->>>>>>> 4db59d0 (first commit)
     padding: 15px 0;
     text-align: center;
     font-size: 16px;
     text-transform: uppercase;
     cursor: pointer;
-<<<<<<< HEAD
-    background: #00bcd4;
-=======
     background: var(--main-color); /* السماوي كلون أساسي */
->>>>>>> 4db59d0 (first commit)
     transition: background 0.3s ease, color 0.3s ease;
 }
 
 .cart .button_Cart .btn_cart:hover {
-<<<<<<< HEAD
-    background: white;
-    color: #00bcd4;
-}
-
-.cart .button_Cart .trans_bg {
-    background: white;
-    color: #00bcd4;
-    border: 2px solid #00bcd4;
-}
-
-.cart .button_Cart .trans_bg:hover {
-    background: #00bcd4;
-    color: white;
-}
-
-
-
-/* end cart */
-
-
-=======
     background: #fff; /* الباك جراوند أبيض عند الهوفر */
     color: var(--main-color); /* السماوي للنص */
 }
@@ -460,30 +309,18 @@ p{
 
 /* end cart */
 
->>>>>>> 4db59d0 (first commit)
 /* start slider */
 .slider {
     width: 100%;
     height: 100vh;
-<<<<<<< HEAD
-    background-color: #f8fdff;
-    overflow: hidden;
-    position: relative;
-    
-=======
     background-color: #fff; /* الباك جراوند أبيض */
     overflow: hidden;
     position: relative;
->>>>>>> 4db59d0 (first commit)
 }
 
 .swiper {
     width: 100%;
-<<<<<<< HEAD
-    height: 710px; /* زيادة الارتفاع ليكون مشابهًا للصورة */
-=======
     height: 710px;
->>>>>>> 4db59d0 (first commit)
 }
 
 .swiper-slide {
@@ -496,10 +333,6 @@ p{
     width: 100%;
     height: 100vh;
     object-fit: cover;
-<<<<<<< HEAD
-    
-=======
->>>>>>> 4db59d0 (first commit)
 }
 
 /* تصميم نصوص العرض */
@@ -508,11 +341,7 @@ p{
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
-<<<<<<< HEAD
-    background: rgba(255, 255, 255, 0.85); 
-=======
     background: rgba(255, 255, 255, 0.85); /* الباك جراوند أبيض مع شفافية */
->>>>>>> 4db59d0 (first commit)
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -523,11 +352,7 @@ p{
 .slider-content h2 {
     margin: 0;
     font-size: 28px;
-<<<<<<< HEAD
-    color: #005f73;
-=======
     color: var(--main-color); /* السماوي للعنوان */
->>>>>>> 4db59d0 (first commit)
     font-weight: bold;
 }
 
@@ -540,13 +365,8 @@ p{
 .shop-btn {
     display: inline-block;
     padding: 12px 24px;
-<<<<<<< HEAD
-    background: #008cba;
-    color: white;
-=======
     background: var(--main-color); /* السماوي للزر */
     color: #fff;
->>>>>>> 4db59d0 (first commit)
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -561,12 +381,7 @@ p{
 /* أزرار التنقل */
 .swiper-button-next,
 .swiper-button-prev {
-<<<<<<< HEAD
-    color: white;
-    /* background: rgba(0, 140, 186, 0.7); */
-=======
     color: #fff;
->>>>>>> 4db59d0 (first commit)
     padding: 20px;
     border-radius: 50%;
     transition: 0.3s;
@@ -574,46 +389,24 @@ p{
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-<<<<<<< HEAD
-    background: rgba(0, 140, 186, 0.7);
-=======
     background: rgba(0, 188, 212, 0.7); /* السماوي مع شفافية عند الهوفر */
->>>>>>> 4db59d0 (first commit)
 }
 
 /* النقاط (pagination) */
 .swiper-pagination-bullet {
-<<<<<<< HEAD
-    background: white;
-=======
     background: #fff;
->>>>>>> 4db59d0 (first commit)
     opacity: 1;
     transition: 0.3s;
 }
 
 .swiper-pagination-bullet-active {
-<<<<<<< HEAD
-    background: #008cba !important;
-=======
     background: var(--main-color) !important; /* السماوي للنقطة النشطة */
->>>>>>> 4db59d0 (first commit)
     width: 35px !important;
     height: 8px !important;
     border-radius: 30px !important;
 }
 
 /* end slider */
-<<<<<<< HEAD
-/* service_feature */
-/* فصل القسم عن غيره */
-.featured-services {
-    background: #E0F7FA; /* لون سماوي فاتح */
-    padding: 60px 20px;
-}
-
-/* ترتيب العناصر */
-=======
 
 /* service_feature */
 .featured-services {
@@ -621,7 +414,6 @@ p{
     padding: 60px 20px;
 }
 
->>>>>>> 4db59d0 (first commit)
 .featured-services .container {
     display: flex;
     justify-content: space-between;
@@ -629,10 +421,6 @@ p{
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
-/* تصميم البوكسات */
-=======
->>>>>>> 4db59d0 (first commit)
 .featured-services .icon-box {
     flex: 1;
     min-width: 250px;
@@ -646,10 +434,6 @@ p{
     overflow: hidden;
 }
 
-<<<<<<< HEAD
-/* حركة هوفر احترافية */
-=======
->>>>>>> 4db59d0 (first commit)
 .featured-services .icon-box::before {
     content: "";
     position: absolute;
@@ -657,11 +441,7 @@ p{
     left: 0;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
-    background: linear-gradient(135deg, #00BCD4, #0288D1);
-=======
     background: linear-gradient(135deg, var(--main-color), #0288D1); /* السماوي بتدرج */
->>>>>>> 4db59d0 (first commit)
     transition: top 0.3s ease-in-out;
     z-index: 0;
 }
@@ -679,31 +459,16 @@ p{
     z-index: 1;
 }
 
-<<<<<<< HEAD
-/* أيقونات */
-.featured-services .icon i {
-    font-size: 40px;
-    color: #00ACC1;
-    transition: color 0.3s ease-in-out;
-}
-
-/* عند التمرير يتغير لون الأيقونة */
-=======
 .featured-services .icon i {
     font-size: 40px;
     color: var(--main-color); /* السماوي للأيقونة */
     transition: color 0.3s ease-in-out;
 }
 
->>>>>>> 4db59d0 (first commit)
 .featured-services .icon-box:hover .icon i {
     color: #fff;
 }
 
-<<<<<<< HEAD
-/* عناوين */
-=======
->>>>>>> 4db59d0 (first commit)
 .featured-services .title {
     font-size: 18px;
     font-weight: bold;
@@ -719,10 +484,6 @@ p{
     color: #fff;
 }
 
-<<<<<<< HEAD
-/* وصف */
-=======
->>>>>>> 4db59d0 (first commit)
 .featured-services .description {
     font-size: 14px;
     margin-top: 10px;
@@ -734,13 +495,6 @@ p{
     color: #fff;
 }
 
-<<<<<<< HEAD
-  /* end service_feature */
-
-
-
-
-=======
 /* end service_feature */
 
 /* start banner */
@@ -1328,4 +1082,3 @@ header .links ul .btn_close_menu{
         width: 100%;
     }
 }
->>>>>>> 4db59d0 (first commit)
